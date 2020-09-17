@@ -1,0 +1,184 @@
+html body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+/* HEADER */
+header {
+  background-image: url('../img/Path\ 4.png');
+  background-size: cover;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-bottom: 120px;
+  background-blend-mode: overlay;
+}
+.head {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+/* #logo {
+  padding: 20px 100px;
+} */
+img {
+  height: 50px;
+  width: 120px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding-top: 70px;
+}
+
+#left {
+  padding-top: 50px;
+}
+#left h1 {
+  font-family: open sans;
+  font-size: 30px;
+  width: 400px;
+}
+#left p {
+  font-family: open sans;
+  font-size: 15px;
+  padding-bottom: 20px;
+  width: 390px;
+  text-align: justify;
+  font-weight: 100;
+  line-height: 25px;
+}
+#right {
+  padding-top: 0px;
+  padding-left: 70px;
+}
+#right img {
+  width: 50%;
+  height: 100%;
+  box-shadow: 2px 4px 20px 3px #a2a0a0;
+}
+
+/* INFORMATIONS */
+aside {
+  background-image: url('../img/Group\ 14.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+}
+aside .one {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+aside .one h1 {
+  font-family: open sans;
+  font-size: 30px;
+  width: 350px;
+}
+aside .one img {
+  cursor: pointer;
+  margin-top: 50px;
+  width: 60%;
+  height: 50%;
+  margin-left: 50px;
+  box-shadow: 2px 4px 4px 1px #c9c6c6;
+}
+aside .two img {
+  cursor: pointer;
+  width: 60%;
+  height: 50%;
+  margin-left: 50px;
+  box-shadow: 2px 4px 4px 1px #c9c6c6;
+}
+aside .three {
+  padding-top: 50px;
+}
+aside .three p {
+  font-family: open sans;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 0;
+  padding-right: 20px;
+  width: 250px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* ADD TO CART */
+#add {
+  padding: 200px 300px;
+  padding-bottom: 200px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#add #one {
+  width: 300px;
+  background-color: rgb(234, 234, 235);
+  box-shadow: 1px 1px 7px 1px #8d8b8b;
+  padding: 20px;
+  margin-right: 100px;
+}
+#add #two {
+  margin-left: 50px;
+  width: 300px;
+  background-color: rgb(234, 234, 235);
+  box-shadow: 1px 1px 7px 1px #8d8b8b;
+  padding: 20px;
+}
+#add img {
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  padding-bottom: 20px;
+}
+#add h1 {
+  font-family: open sans;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+#add p {
+  /* width: 300px; */
+  font-size: 12px;
+  font-family: open sans;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  background-image: url('../img/Path\ 3.png');
+  background-size: cover;
+}
+footer h1 {
+  font-family: open sans;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+footer p {
+  font-family: open sans;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+#final {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 100px;
+  padding-left: 120px;
+  padding-bottom: 80px;
+  color: gray;
+  font-family: open sans;
+  font-size: 12px;
+}
